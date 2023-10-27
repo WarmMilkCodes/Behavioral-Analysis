@@ -1,7 +1,7 @@
 # Behavioral Analysis System for K-12 Education
 This project aims to provide an analytical tool to assess and predict student engagement in K-12 education based on behavioral indicators.
 
-# Features:
+# Features
 ## - Dashboard 
 Provides insights into student behavior and predictive analysis.
 ## - Manage Students
