@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Behavioral Analysis Dashboard</h1>
+<form method="post">
+    <!-- Sample input fields -->
+    <label for="attendance">Attendance:</label>
+    <input type="text" id="attendance" name="attendance"><br><br>
+
+    <label for="average_score">Average Score:</label>
+    <input type="text" id="average_score" name="average_score"><br><br>
+
+    <!-- Add other input fields as needed -->
+
+    <input type="submit" value="Predict Engagement">
+</form>
+
+{% if prediction %}
+    <h2>Prediction: {{ prediction }}</h2>
+{% endif %}
+{% endblock %}

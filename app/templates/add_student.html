@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Add Student</h1>
+<form method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="attendance">Attendance:</label>
+    <input type="text" id="attendance" name="attendance"><br><br>
+
+    <label for="average_score">Average Score:</label>
+    <input type="text" id="average_score" name="average_score"><br><br>
+
+    <!-- Add other input fields as needed -->
+
+    <input type="submit" value="Add Student">
+</form>
+{% endblock %}
